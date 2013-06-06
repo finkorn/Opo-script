@@ -127,17 +127,17 @@ var COOKIE_AUDIENCE = 'audience';
 var COOKIE_LEFT = 'left';
 var MAX_USERS_WAITLIST = 50;
 
-var loveMsg = ["I love this song! makes me want to jizz in my pants", "this... song... is... AWESOME!!", "this song is a BEAST!", "me likes this song me does"];
-var mehMsg = ["I'm not really a fan of this song, but it's okay I guess", "this song isn't as good as others, but it could be worse"];
-var hateMsg = ["I hate this song! makes me want to vomit all over myself. just kidding, but I still don't like it", "what is this god awful noise? D:", "this song... just... eww"];
-var sleepMsg = ["Sleepy time!!!", "going to sleep now", "time to hit the sack", "so tired, sleep is needed me thinks", "tiredness... taking... over... must sleep"];
-var workMsg = ["I'm working so mention me if I'm needed", "I'm going to do work related stuffs, mention if needed", "I'm gonna be busy, mention if needed"];
-var afkMsg = ["I'm going away on a merry merry quest, be back soon!", "going AFK for a while, be back soon!", "going away, be back soon!", "going to hunt the galaxy, be back soon!"];
-var backMsg = ["I'm back from my adventures!", "I'm baaacckkk", "guess who's back? ME! I'm back :D", "be-ber-ber-b-be-back!"];
+var loveMsg = ["Miluju tento song!!", "Nejlepší song!!", "Skvělej song!!", "skvělý výběr!!"];
+var mehMsg = ["Nemusim tenhle song!", "tenhle song není dobrý, ale dá se!!"];
+var hateMsg = ["Nesnáším tuhle písničku! Chce se mi zvracet", "Coje to za strašný zvuk?", "tenhle song...je....Hroznej!!"];
+var sleepMsg = ["Čas spát!!!", "Jdu spát!!", "čas zalehnout!", "jsem unavený, jdu se vyspat!", "Postel čeká!!"];
+var workMsg = ["jde se pracovat!!", "Práce volá!", "Jsem zaneprázdněn!!"];
+var afkMsg = ["Odjíždím pryč uvidíme se později!", "Jdu pryč!", "Jdu pryč, uvidíme se později!", "Nepište, nejsem tu!!!"];
+var backMsg = ["Sem zpět!", "Sem z5", "Hádejte, kdo je zpátky? Já!", "Konečně jsem tu!"];
 
-var autoAwayMsg = ["I'm currently AFK", "I'm AFK", "I'm on an adventure (afk)", "gone away for a moment", "not present at keyboard"];
-var autoSlpMsg = ["I'm currently sleeping", "I'm counting sheep in my dreams", "I've hit the sack", "I'm asleep", "I've gone to sleep"];
-var autoWrkMsg = ["I'm currently working", "I'm busy", "doing work related stuffs"];
+var autoAwayMsg = ["Jsem AFK", "jsem zaneprázdněn!", "Jsem pryč!!", "čekejte chvíly!", "Nejsem přítomnej u klávesnice!"];
+var autoSlpMsg = ["Spím!!", "Snim!!", "Zalehnul jsem", "V posteli!", "Jdu spát"];
+var autoWrkMsg = ["Pracuju", "Nestíhám!", "Snažim se pracovat!!"];
 
 var styles = [
             '.sidebar {position: fixed; top: 0; height: 100%; width: 200px; z-index: 99999; background-image: linear-gradient(bottom, #000000 0%, #3B5678 100%);background-image: -o-linear-gradient(bottom, #000000 0%, #3B5678 100%);background-image: -moz-linear-gradient(bottom, #000000 0%, #3B5678 100%);background-image: -webkit-linear-gradient(bottom, #000000 0%, #3B5678 100%);background-image: -ms-linear-gradient(bottom, #000000 0%, #3B5678 100%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #000000),color-stop(1, #3B5678));}',
