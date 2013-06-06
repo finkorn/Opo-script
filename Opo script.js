@@ -27,7 +27,7 @@ function readCookies() {
     	value = jaaulde.utils.cookies.get(COOKIE_STREAMING);
     	streaming = value != null ? value: true;
     	value = jaaulde.utils.cookies.get(COOKIE_HIDE_VIDEO);
-    	hideVideo = value != null ? value : false;
+    	SkrýtVideo = value != null ? value : false;
     	var value = jaaulde.utils.cookies.get(COOKIE_EMOTES);
     	emotes = value != null ? value : true;
     	var value = jaaulde.utils.cookies.get(COOKIE_AUDIENCE);
