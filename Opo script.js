@@ -75,6 +75,9 @@ var words = {
 "Volume" : "Hlasitost!",
 "Current DJ" : "Aktuální DJ",
 "Crowd Response" : "Hodnocení!",
+"INFO" : "Informace!",
+"USERS" : "Uživatelé!",
+"HISTORY" : "Historie!",
 "Fans":"Fanoušci!"};
 
 String.prototype.prepareRegex = function() {
