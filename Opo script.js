@@ -236,7 +236,7 @@ function displayUI() {
 }
 
 function rules() {
-	alert("Rules: \n1) for all ages so no porn \n2) no songs over 8 mins \n3) spamming can lead to an instant ban \n4) please keep songs to EDM \n5) have fun!");
+	alert("Rules: \n1) Nemluvit vulgárně \n2) Neurážet žádného uživatele \n3) Délka songu max. 8min \n4) Nespamovat \n5) Bavit se!!!");
 }
 
 function initUIListeners() {
