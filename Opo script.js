@@ -575,7 +575,7 @@ ccm = Class.extend({
 			log('<span>strobes deactivated!</span>'); 
 			return RoomUser.audience.strobeMode(false), !0;
 		}
-		if ("strobe on" == a) {
+		if ("/strobe on" == a) {
 			return log('<span>command invalid!</span>');
 		}
 		if ("/help" == a) return a = {type: "update"}, a.message =Lang.chat.help, this.receive(a), !0;
