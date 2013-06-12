@@ -867,8 +867,6 @@ function strobeListener() {
   initialize();
 }
 
-<div id="button-vote-negative" style="cursor: default; background-image: url(http://plug.dj/_/static/images/en/ButtonVoteNegativeDisabled.bdf66ff9.png); left: 343px;"></div>;
-<div id="button-vote-positive" style="cursor: default; background-image: url(http://plug.dj/_/static/images/en/ButtonVotePositiveDisabled.ce7c40b3.png); left: 760px;"></div>;
 delay();
 $('#plugbot-js').remove();
 log("Vítejte, podívejte se na Informace");
