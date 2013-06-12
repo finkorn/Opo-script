@@ -1,3 +1,74 @@
+function addGlobalStyle(css){
+	var head, style;
+	head = document.getElementsByTagName('head')[0];
+	if(!head){
+		return;
+	}
+	style = document.createElement('style');
+	style.type = 'text/css';
+	style.innerHTML = css;
+	head.appendChild(style);
+}
+
+if (location.pathname.match('the-edm-basement')) {
+addGlobalStyle('html{background: url("http://i.imgur.com/9kPye.jpg");');
+
+//========================================================================================
+
+} else if (location.pathname.match('drum-bass')) {
+addGlobalStyle('html{background: url("http://art.ngfiles.com/images/148/r0bot_drum-and-bass.jpg");');
+
+//========================================================================================
+
+} else if (location.pathname.match('friendshipismagic')) {
+addGlobalStyle('html{background: url("http://memberfiles.freewebs.com/47/35/39453547/photos/undefined/rVr6R7-5.png");');
+
+//=======================================================================================
+
+} else if (location.pathname.match('friendshipismagic/#')) {
+addGlobalStyle('html{background: url("http://memberfiles.freewebs.com/47/35/39453547/photos/undefined/rVr6R7-5.png");');
+
+//=======================================================================================
+
+} else if (location.pathname.match('propersteeze-lounge')) {
+addGlobalStyle('http://memberfiles.freewebs.com/47/35/39453547/photos/undefined/Hobbit%20title.png");');
+
+//=======================================================================================
+
+} else if (location.pathname.match('bass-music-garage-dubstep-etc')) {
+addGlobalStyle('html{background: url("http://fc05.deviantart.net/fs71/f/2010/246/8/d/drum_and_bass_by_zkappa-d2xyqlr.png");');
+
+//=======================================================================================
+
+} else if (location.pathname.match('tugapie-dddd')) {
+addGlobalStyle('html{background: url("http://static.zerochan.net/full/31/49/1034981.jpg");');
+
+//=======================================================================================
+
+} else if (location.pathname.match('partoftheroomname')) { 
+addGlobalStyle('html{background: url("http://i.imgur.com/05Nso7J.jpg");background-size: cover;background-repeat: no-repeat;min-height:100%;');
+
+
+//=====do not change this last one=======================================================
+
+} else { 
+addGlobalStyle('html{background: url("http://i.imgur.com/05Nso7J.jpg");');
+}
+
+addGlobalStyle('#logo, #logo {background-image: url("http://i.imgur.com/NJaZw.png");min-height:33px;min-width:131px;}'); //change the logo
+
+addGlobalStyle('#create-room-button, #create-room-button {background-image: url("http://i.imgur.com/oW6ir.png");min-height:33px;min-width:131px;}'); //change create room button
+
+addGlobalStyle('#room-wheel, #room-wheel {background-image: max-height:0px;max-width:0px;}'); //hide the upper bg image (clashes with main bg)
+
+addGlobalStyle('#user-points, #user-points {background-image: url("http://th09.deviantart.net/fs70/PRE/i/2012/115/f/c/shining_armor_cutie_mark_by_noxwyll-d4xjdre.png");maxheight:25px;background-size: 100% 100%;max-width:25px;}'); //cutie mark
+
+addGlobalStyle('#user-fans, #user-fans {background-image: url("http://i.imgur.com/2trwR.png");maxheight:25px;max-width:25px;}'); //Yay
+
+addGlobalStyle('#button-dj-play.button-dj, #button-dj-play.button-dj {background-image: url("http://i.imgur.com/25rO8.png")!important;}');//join DJ button
+
+addGlobalStyle('#button-dj-quit.button-dj, #button-dj-quit.button-dj {background-image: url("http://i.imgur.com/u9vac.png")!important;}');//quit DJ button
+
 function delay() {
     setTimeout("load();", 6000);
 	setTimeout(function(){RoomUser.audience.roomElements = []; RoomUser.redraw();}, 4000);
