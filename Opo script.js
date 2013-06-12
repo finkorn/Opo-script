@@ -61,7 +61,7 @@ addGlobalStyle('#create-room-button, #create-room-button {background-image: url(
 
 addGlobalStyle('#room-wheel, #room-wheel {background-image: max-height:0px;max-width:0px;}'); //hide the upper bg image (clashes with main bg)
 
-addGlobalStyle('#user-points, #user-points {background-image: url("http://th09.deviantart.net/fs70/PRE/i/2012/115/f/c/shining_armor_cutie_mark_by_noxwyll-d4xjdre.png");maxheight:25px;background-size: 100% 100%;max-width:25px;}'); //cutie mark
+addGlobalStyle('#user-points, #user-points {background-image: url("http://i.imgur.com/MGHXgkS.png");maxheight:25px;background-size: 100% 100%;max-width:25px;}'); //cutie mark
 
 addGlobalStyle('#user-fans, #user-fans {background-image: url("http://i.imgur.com/2trwR.png");maxheight:25px;max-width:25px;}'); //Yay
 
