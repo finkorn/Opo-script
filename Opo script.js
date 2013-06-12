@@ -149,6 +149,7 @@ var words = {
 "INFO" : "Informace!",
 "USERS" : "Uživatelé!",
 "HISTORY" : "Historie!",
+"Nobody is playing" : "není DJ!!",
 "Fans":"Fanoušci!"};
 
 String.prototype.prepareRegex = function() {
