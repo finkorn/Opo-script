@@ -65,7 +65,7 @@ addGlobalStyle('#user-points, #user-points {background-image: url("http://th09.d
 
 addGlobalStyle('#user-fans, #user-fans {background-image: url("http://i.imgur.com/2trwR.png");maxheight:25px;max-width:25px;}'); //Yay
 
-addGlobalStyle('#button-dj-play.button-dj, #button-dj-play.button-dj {background-image: url("http://i.imgur.com/25rO8.png")!important;}');//join DJ button
+addGlobalStyle('#button-dj-play.button-dj, #button-dj-play.button-dj {background-image: url("http://i.imgur.com/SuZmhjh.png")!important;}');//join DJ button
 
 addGlobalStyle('#button-dj-quit.button-dj, #button-dj-quit.button-dj {background-image: url("http://i.imgur.com/NTeVxeJ.png")!important;}');//quit DJ button
 
